@@ -1,0 +1,3 @@
+Sub copy_paste_to_worksheet():
+    Worksheets("Rounds").Range("B1:P83871").Copy Worksheets("Pasted_data").Range("A1:P83871")
+End Sub
