@@ -12,7 +12,7 @@ One of the VBA scripts/demos copies and pastes data from a specified range of ce
 The following VBA script (see the Excel_VBA_code/VBA_copy_paste_to_other_worksheet.txt file) for this copy-paste program is as follows:
 
 Sub copy_paste_to_worksheet():
-    'Paste data from Rounds Worksheet, with range of cells B1 to P83871.
-    Worksheets("Rounds").Range("B1:P83871").Copy Worksheets("Pasted_data").Range("A1:P83871")
+        'Paste data from Rounds Worksheet, with range of cells B1 to P83871.
+        Worksheets("Rounds").Range("B1:P83871").Copy Worksheets("Pasted_data").Range("A1:P83871")
 End Sub
 
