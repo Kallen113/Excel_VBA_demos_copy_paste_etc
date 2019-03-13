@@ -1,4 +1,4 @@
-# Excel_VBA_demos_copy_paste_etc
+# Excel VBA-demos: copy-paste, etc
 
 VBA code for Excel:
 
