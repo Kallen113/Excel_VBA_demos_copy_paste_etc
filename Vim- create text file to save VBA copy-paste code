@@ -1,14 +1,14 @@
 #in bash/terminal:
 #change directory to where you want the file to be saved: in this case, the Desktop 
-```
+
 cd Desktop/
-```
+
 #open the Vim text editor
-```
+
 vim
-```
+
 #paste the VBA code that you want to save in a new text file
-```
+
 Sub copy_paste_to_worksheet():
     'Paste data from Rounds Worksheet, with range of cells B1 to P83871.
     Worksheets("Rounds").Range("B1:P83871").Copy Worksheets("Pasted_data").Range("A1:P83871")
@@ -17,7 +17,7 @@ End Sub
 #create a new text file called VBA_copy_paste_to_other_worksheet.txt, and save the text to this file
 #then quit Vim, and return to main terminal
 #add an exclamation mark to wq-- i.e., wq! to save over the file if it exists
-```
+
 :wq! VBA_copy_paste_to_other_worksheet.txt!
-```
+
 
