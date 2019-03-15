@@ -13,11 +13,11 @@ Sub copy_paste_to_worksheet():
     'Paste data from Rounds Worksheet, with range of cells B1 to P83871.
     Worksheets("Rounds").Range("B1:P83871").Copy Worksheets("Pasted_data").Range("A1:P83871")
 End Sub
-```
+
 #create a new text file called VBA_copy_paste_to_other_worksheet.txt, and save the text to this file
 #then quit Vim, and return to main terminal
-#add an exclamation mark to wq-- i.e., wq! to save over the file if it exists
+#add an exclamation mark to wq-- i.e., "wq!" to save over the file if it exists
 
-:wq! VBA_copy_paste_to_other_worksheet.txt!
+:wq! VBA_copy_paste_to_other_worksheet.txt
 
 
