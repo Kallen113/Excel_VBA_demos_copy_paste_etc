@@ -1,4 +1,3 @@
-```
 Sub COUNTIF_Company_greater_than_1_million_VC():
     'COUNTIF  to show # of companies that raised more than $1 million in venture capital, seed, or other investment funding .     'Places results of COUNTIF in cell V4
     Range("V4").Value = Application.WorksheetFunction.CountIf(Range("O2:O88871"), ">" & 1000000)
@@ -17,4 +16,3 @@ Sub COUNTIF_Company_SF():
     Range("V9").Value = Application.WorksheetFunction.CountIf(Range("G2:G88871"), "San Francisco")
         
 End Sub
-```
